@@ -47,7 +47,7 @@ class Player:
 		else:
 			for card in self.hand:
 				print(card)
-			print("Total: ", self.get_total())
+			print("Total: ", get_total())
 
 class Game:
 	@classmethod
